@@ -2,7 +2,7 @@
 
 This repository contains code from:
 
-*Ning Qing Liu<sup>†</sup>, Mikhail Magnitov<sup>†</sup>, Marijne Schijns, Tom van Schaik, Hans Teunissen, Bas van Steensel, Elzo de Wit*. **Extrusion fountains are restricted by WAPL-dependent cohesin release and CTCF barriers** (2025).
+*Ning Qing Liu<sup>†</sup>, Mikhail Magnitov<sup>†</sup>, Marijne Schijns, Tom van Schaik, Hans Teunissen, Bas van Steensel, Elzo de Wit*. **[Extrusion fountains are restricted by WAPL-dependent cohesin release and CTCF barriers](https://doi.org/10.1093/nar/gkaf549)** (2025).
 
 We have deposited scripts used to annotate and analyse fountains described in the paper. We have used [fontanka](https://github.com/agalitsyna/fontanka) tool for fouintains calling and followed the procedure described in the [original work](https://doi.org/10.1101/2023.07.15.549120) with some modifications.
 
