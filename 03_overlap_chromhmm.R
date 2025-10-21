@@ -14,7 +14,7 @@ for (state in c("1_Insulator", "2_Intergenic", "3_Heterochromatin", "4_Enhancer"
                               ranges = IRanges(start = chromHMM[chromHMM$V4 == state, ]$V2, end = chromHMM[chromHMM$V4 == state, ]$V3))
     
     test_anchors <- permTest(A=plume_anchors, B=chromHMM_state, randomize.function = circularRandomizeRegions, 
-                             evaluate.function = meanDistance, ntimes=10, genome=genome, verbose=TRUE)
+                             evaluate.function = numOverlaps, ntimes=10, genome=genome, verbose=TRUE)
     
     fc_anchors <- append(fc_anchors, test_anchors$numOverlaps$observed / mean(test_anchors$numOverlaps$permuted))
 }
